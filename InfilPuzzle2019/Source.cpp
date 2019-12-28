@@ -155,12 +155,17 @@ int main()
 {
 	// Leuke puzzel!
 	// Deze oplossing maakt gebruik van een Tree met alle mogelijke routes die succesvol eindigen. 
-	// De nodes bevatten relevante data, waaronder de energie die nodig was om op de node te kommen.
+	// De nodes bevatten relevante data, waaronder de energie die nodig was om op de node te komen.
 	// De leaves van de Tree bevatten dus de energie tot het eindpunt van die unieke route.
 
 	// Code kan nog veel simpeler, maar simpel = moeilijk en tijd: geen 
 	// Ik wilde nog een mooie visualisatie van de tree maken, maar tijd: geen
 	// groeten! Rogier
+	//
+	// n.b.: heb net Graphs / grafen geleerd en een eigen OOP implementatie geschreven. 
+	// Realiseer me nu dat deze puzzel een schoolvoorbeeld is van een shortest path (optimaliseren voor energie)
+	// Ga nu Dijkstra's algo leren, stuur wel een update als ik deze puzzel daarmee heb getackeld. 
+	// Fantastiche leerervaring dus!!
 
 	Infi1(); // deel 1 van de puzzel
 	Infi2(); // deel 2
