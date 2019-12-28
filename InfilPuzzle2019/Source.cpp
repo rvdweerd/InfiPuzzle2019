@@ -45,7 +45,6 @@ struct Node
 	std::vector<Node*> nextFlats;
 	int totalEnergyUsed;
 };
-
 bool kanVooruitLanden(std::pair<int, int> pos, std::pair<int, int> sprong, std::vector<std::pair<int, int>>& flats, std::map<int, int>& hoogtes)
 {
 	pos.first += sprong.first + 1;
@@ -122,6 +121,7 @@ void TraverseTree(Node* node, std::pair<int, int>& endpoint, std::set<int>& res)
 	}
 	return;
 }
+
 void Infi2()
 {
 	// aoc.infi.nl 2019, deel 2
@@ -153,7 +153,16 @@ void Infi2()
 
 int main()
 {
-	Infi1();
-	Infi2();
+	// Leuke puzzel!
+	// Deze oplossing maakt gebruik van een Tree met alle mogelijke routes die succesvol eindigen. 
+	// De nodes bevatten relevante data, waaronder de energie die nodig was om op de node te kommen.
+	// De leaves van de Tree bevatten dus de energie tot het eindpunt van die unieke route.
+
+	// Code kan nog veel simpeler, maar simpel = moeilijk en tijd: geen 
+	// Ik wilde nog een mooie visualisatie van de tree maken, maar tijd: geen
+	// groeten! Rogier
+
+	Infi1(); // deel 1 van de puzzel
+	Infi2(); // deel 2
 	return 0;
 }
