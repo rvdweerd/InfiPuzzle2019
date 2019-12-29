@@ -177,15 +177,16 @@ int main()
 	// Niet efficient, volgens mij O(2^N).
 	//
 	// Code kan nog veel simpeler, maar simpel = moeilijk en tijd: geen 
-	// Ik wilde nog een mooie visualisatie van de tree maken, maar tijd: geen
-	// groeten! Rogier
+	// Ik wilde nog een mooie visualisatie van de tree maken, maar tijd: geen. Wel eerder gedaan voor een BST
+	// ( [ void printTreeChart(TreeNode* node); ] in https://github.com/rvdweerd/BinarySearchTree.git
 	//
 	// n.b.: heb net Graphs / grafen geleerd en een eigen OOP implementatie geschreven. 
 	// Realiseer me nu dat deze puzzel een schoolvoorbeeld is van een shortest path (optimaliseren voor energie).
 	// Dan hoef je dus niet meer alle mogelijke routes te verkennen.
 	// Ga nu Dijkstra's algo leren, stuur wel een update als ik deze puzzel daarmee heb getackeld. 
-	// Fantastiche leerervaring dus!!
-
+	// Fantastische leerervaring dus!!
+	// groeten! Rogier
+		
 	Infi1(); // deel 1 van de puzzel
 	Infi2(); // deel 2
 	return 0;
