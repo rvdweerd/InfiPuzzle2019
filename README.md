@@ -9,3 +9,5 @@ Ideeen voor beter alternatief: BFS als ik een unweighted chart kan bedenken, and
 Oplossing #2. Bouwt graph met alle unieke routes (nodes en directed arcs); waarop Dijkstra wordt toegepast -> [repo oplossing 2](https://github.com/rvdweerd/InfiPuzzle2019_solution2.git)</br>
 
 Oplossing #3. 3. Bouwt graph (nodes en directed arcs) terwijl we Dijkstra toepassen. Dit is de meest efficiente toepassing want alleen het strikt nodige werk wordt gedaan. -> [repo oplossing 3](https://github.com/rvdweerd/InfiPuzzle2019_solution3.git)
+
+![Presentation of approach](InfiPuzzelAoC2019_rvdw.pdf)
